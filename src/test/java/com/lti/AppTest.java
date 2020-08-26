@@ -15,6 +15,10 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
+        try{
         assertTrue( true );
+        }catch (Exception e){
+        }
+    
     }
 }
